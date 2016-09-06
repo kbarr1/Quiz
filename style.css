@@ -121,5 +121,8 @@ li a:hover {
 }
 
 .check:hover {
-    color: black;
+    color: #663399;
+    transition-property:color, text;
+    transition-duration: 0.3s, 0.3s;
+    transition-timing-function: linear;
 }
