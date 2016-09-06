@@ -28,3 +28,63 @@ li a {
 li a:hover {
     background-color: #111;
     text-decoration:none;
+}
+
+.jumbotron2 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(http://www.orientamentoinrete.it/sites/default/files/blackboard.jpg);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.jumbotron2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(http://www.orientamentoinrete.it/sites/default/files/blackboard.jpg);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.quizknapp {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #663399;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 10px;
+
+
+}
+
+.quizknapp span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.quizknapp span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.quizknapp:hover span {
+  padding-right: 25px;
+}
+
+.quizknapp:hover span:after {
+  opacity: 1;
+  right: 0;
+}
