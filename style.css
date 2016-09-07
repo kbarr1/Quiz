@@ -1,3 +1,9 @@
+body {
+    
+    background-image: url(http://www.orientamentoinrete.it/sites/default/files/blackboard.jpg);
+    background-repeat: no-repeat;
+}
+
 .navbar{
     background-color: #333;
     border-radius: 0px;
@@ -31,13 +37,25 @@ li a:hover {
 }
 
 .box1 {
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-top: 1px;
+   
+    padding-top: 10px;
     text-align: center;
-    
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 10px;
     padding-bottom: 40px;
-    background-color: #e6ffe6;
+    background-color: #CAF2CA;
+    
+}
+
+.box1 {
+    opacity: 0.5;
+    
+}
+
+.box1:hover {
+    opacity: 1.0;
+    
 }
 
 .box1:hover {
@@ -50,11 +68,12 @@ li a:hover {
     background-image: url(http://www.orientamentoinrete.it/sites/default/files/blackboard.jpg);
     background-repeat: no-repeat;
     color: white;
+    opacity: 0.2;
 }
 
 .jumbotron1 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     margin-bottom: 10px;
     background-image: url(http://www.orientamentoinrete.it/sites/default/files/blackboard.jpg);
     background-repeat: no-repeat;
